@@ -10,7 +10,7 @@ Did not submit a PR since this is just a get around to make the Mirroring work, 
 ## Utility - [Screenshots]
 **Message Forwarding** -[https://i.imgur.com/GiSxRZ6.png]\
 **Attachment Forwarding** - [https://i.imgur.com/0dcjRfK.png]\
-**Embed Forwarding** - [https://i.imgur.com/S9Araqi.png]\
+**Embed Forwarding** - [https://i.imgur.com/S9Araqi.png] \
 
 Feel free to raise an issue in case of problems, or contact me on Discord: @saneadi#0001
 
