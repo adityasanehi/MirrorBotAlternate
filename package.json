@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "discord.js-selfbot-v11": "^11.5.1",
+    "discord.js": "13.3.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
