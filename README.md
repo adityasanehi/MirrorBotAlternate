@@ -6,7 +6,7 @@ Did not submit a PR since this is just a get around to make the Mirroring work, 
 
 > NOTE: Please do not post your tokens on a public fork, even more so when using a Selfbot listener.
 
-## Screenshots
+## Features - Screenshots
 Message Forwarding -[https://i.imgur.com/GiSxRZ6.png]
 Attachment Forwarding - [https://i.imgur.com/0dcjRfK.png]
 Embed Forwarding - [https://i.imgur.com/S9Araqi.png]
