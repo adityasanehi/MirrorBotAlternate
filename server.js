@@ -12,12 +12,12 @@ const { Client, Intents } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 const user = new Discord.Client();
 user.login(usertoken);
-console.log(`LOGGED IN ON ${usertoken}!`)
+console.log('[INITIATION EVENT] LOGGED IN ON USER/LISTENER BOT!')
 user.on("ready", ready => {
   const bot = new Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
   bot.login(botoken);
-  console.log(`LOGGED IN ON ${botoken}!`)
-  console.log('RUNNING NOW!')
+  console.log('[INITIATION EVENT] LOGGED IN ON FORWARDER BOT/TOKEN!')
+  console.log('[LISTENER EVENT] FORWARDER RUNNING NOW!')
   user.on("message", message => {
     if (forwardfrom.includes(message.channel.id) ) {
       //forward message text
