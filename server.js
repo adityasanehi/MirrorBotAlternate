@@ -12,9 +12,11 @@ const { Client, Intents } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 const user = new Discord.Client();
 user.login(usertoken);
+console.log(`LOGGED IN ON ${usertoken}!`)
 user.on("ready", ready => {
   const bot = new Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
   bot.login(botoken);
+  console.log(`LOGGED IN ON ${botoken}!`)
   console.log('RUNNING NOW!')
   user.on("message", message => {
     if (forwardfrom.includes(message.channel.id) ) {
@@ -40,9 +42,7 @@ user.on("ready", ready => {
           urls.push(item.url);
         });
         forwardto.forEach(channel => {
-          bot.channels
-            .get(channel)
-            .send(message.author.tag + "\nImage URLs:\n" + urls.join("\n"));
+          bot.channels.cache.get(channel).send("\nImages:\n" + urls.join("\n"));
         });
       }
       //forward all embeds
