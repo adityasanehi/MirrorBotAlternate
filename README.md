@@ -5,4 +5,6 @@ For some reason, the Selfbot module raises a DiscordAPI error while sending mess
 Did not submit a PR since this is just a get around to make the Mirroring work, not a solution to the API error.
 
 ## Screenshots
+![Message Forwarding](https://i.imgur.com/GiSxRZ6.png)
+![Attachment Forwarding](https://i.imgur.com/0dcjRfK.png)
 ![Embed Forwarding](https://i.imgur.com/S9Araqi.png)
