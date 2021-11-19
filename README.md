@@ -14,4 +14,4 @@ Did not submit a PR since this is just a get around to make the Mirroring work, 
 
 Feel free to raise an issue in case of problems, or contact me on Discord: @saneadi#0001
 
-All credits still go to https://github.com/Carcraftz for developing this simple but amazing utility.
+All credits still go to https://github.com/Carcraftz for developing this simple but amazing utility. 🙏
