@@ -13,3 +13,5 @@ Did not submit a PR since this is just a get around to make the Mirroring work, 
 **Embed Forwarding** - [https://i.imgur.com/S9Araqi.png]\
 
 Feel free to raise an issue in case of problems, or contact me on Discord: @saneadi#0001
+
+All credits still go to https://github.com/Carcraftz for developing this simple but amazing utility.
